@@ -1,0 +1,13 @@
+name: enxport
+type: theme
+description: Enxport theme
+core_version_requirement: ^8 || ^9
+libraries:
+  - enxport/global-styling
+base theme: olivero
+regions:
+  header: 'Header'
+  content: 'Content'
+  sidebar_first: 'Sidebar first'
+  icon: 'icon'
+  footer: 'Footer'

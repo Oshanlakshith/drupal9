@@ -1,0 +1,5 @@
+system_page_override:
+  title: System Pages Override
+  description: 'Configure the System Page Override module'
+  route_name: system_page_override.overview
+  parent: system.admin_config_system

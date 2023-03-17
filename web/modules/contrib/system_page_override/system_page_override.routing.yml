@@ -1,0 +1,15 @@
+system_page_override.overview:
+  path: '/admin/config/system/system-page-override'
+  defaults:
+    _form: '\Drupal\system_page_override\Form\OverviewForm'
+    _title: 'System Pages Overrides'
+  requirements:
+    _permission: 'administer system page overrides'
+
+system_page_override.settings:
+  path: '/admin/config/system/system-page-override/settings'
+  defaults:
+    _form: '\Drupal\system_page_override\Form\SettingsForm'
+    _title: 'System Pages Override Settings'
+  requirements:
+    _permission: 'administer system page override settings'

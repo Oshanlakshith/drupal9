@@ -1,0 +1,140 @@
+.field__item {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+
+}
+
+.field__item p {
+    color: rgb(0, 0, 0);
+}
+
+#navbar {
+    width: 100%;
+    height: 85px;
+}
+
+#image {
+    width: 325px;
+    height: 86px;
+    position: relative;
+    left: 7px;
+    bottom: 0px;
+    background-image: url("../images/logo.png");
+    background-size: cover;
+}
+
+.topnav {
+
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 100px;
+    margin: auto;
+}
+
+.topnav a {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+
+}
+
+.topnav a.active {
+    color: rgb(18, 17, 17);
+}
+
+.site-footer__inner container {
+    background-color: white;
+}
+
+.rowcontainer {
+    background-color:#f7f7f7;
+    width: 296%;
+    height: 100%;
+    position: relative;
+    top: -245px;
+    left: -235px;
+    margin: auto;
+}
+
+.image {
+    width: 50%;
+    height: 100%;
+    background-size: cover;
+}
+
+.fetureimage {
+    width: 106%;
+    height: 28rem;
+    background-color: #f7f7f7;
+}
+
+.fetureimage img {
+    width: 50%;
+    height: 100%;
+    background-size: cover;
+}
+
+.paragraph {
+    font-size: 22px;
+    position: relative;
+    font-family: 'Cormorant Garamond', serif;
+    top: -220px;
+}
+
+.title {
+    font-weight: bold;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 40px;
+    position: absolute;
+    top: 34px;
+    left: 825px;
+}
+
+.page-title {
+    display: none;
+}
+
+.event-contnet{
+    position: relative;
+    left: -19px;
+    bottom: 199px;
+    width: 500px;
+}
+.event-contnet p, h1{
+    font-family: 'Cormorant Garamond', serif;
+
+}
+p{
+    font-size: 22px;
+}
+#youtube{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+}
+.icon{
+    font-size: 20px;
+    list-style: none;
+    overflow: hidden;
+    float: left;
+    position: relative;
+    padding: 10px;
+    bottom: 9px;
+    right: 6px;
+    opacity: 0.7;
+}
+.icon :hover{
+    font-size: 25px;
+}
+strong{
+    font-size: 16px;
+}

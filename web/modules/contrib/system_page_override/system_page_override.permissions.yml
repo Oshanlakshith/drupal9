@@ -1,0 +1,8 @@
+administer system page override settings:
+  title: 'Administer system page override settings'
+
+administer system page overrides:
+  title: 'Administer system page overrides'
+
+administer node as system page:
+  title: 'Administer a node as system page'

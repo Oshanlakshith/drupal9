@@ -1,0 +1,10 @@
+{
+  "name": "drupal/system_page_override",
+  "description": "Allows to configure a page as system page.",
+  "type": "drupal-module",
+  "license": "GPL-2.0+",
+  "require": {
+    "php": ">=7.2.0",
+    "drupal/core": "^9.3 || ^10"
+  }
+}

@@ -1,0 +1,24 @@
+system_page_override.settings:
+  type: config_object
+  mapping:
+    enabled_node_bundles_front:
+      type: sequence
+      label: 'Enabled content types for homepage'
+      orderby: value
+      sequence:
+        type: string
+        label: 'Content type ID'
+    enabled_node_bundles_404:
+      type: sequence
+      label: 'Enabled content types for 404 page'
+      orderby: value
+      sequence:
+        type: string
+        label: 'Content type ID'
+    enabled_node_bundles_403:
+      type: sequence
+      label: 'Enabled content types for 403 page'
+      orderby: value
+      sequence:
+        type: string
+        label: 'Content type ID'

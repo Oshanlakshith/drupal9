@@ -1,0 +1,16 @@
+<?php
+
+/**
+ * @file
+ * Module file for system_page_override.
+ */
+
+use Drupal\Core\Form\FormStateInterface;
+use Drupal\system_page_override\SystemPageOverrideNodeFormExtension;
+
+/**
+ * Implements hook_form_BASE_FORM_ID_alter().
+ */
+function system_page_override_form_node_form_alter(&$form, FormStateInterface $form_state) {
+  \Drupal::classResolver(SystemPageOverrideNodeFormExtension::class)->alter($form, $form_state);
+}

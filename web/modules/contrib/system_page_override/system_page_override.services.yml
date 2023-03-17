@@ -1,0 +1,9 @@
+services:
+  system_page_override.manager:
+    class: Drupal\system_page_override\SystemPageManager
+    arguments: ['@state']
+  system_page_override.config_factory_override:
+    class: Drupal\system_page_override\Config\SystemPageConfigOverride
+    arguments: ['@system_page_override.manager', '@language_manager']
+    tags:
+      - { name: config.factory.override }
