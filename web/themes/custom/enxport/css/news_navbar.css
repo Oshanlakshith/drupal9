@@ -1,0 +1,193 @@
+
+.newsnavbar {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(216, 130, 19);
+    padding-top: 63px;
+}
+
+#newsimage {
+    width: 90px;
+    height: 90px;
+    position: relative;
+    left: 60px;
+    vertical-align: middle;
+    bottom: 0px;
+    background-image: url("../images/logo.jpg");
+    background-size: cover;
+}
+
+#anniversary_image {
+    width: 121px;
+    height: 90px;
+    position: relative;
+    left: 60px;
+    vertical-align: middle;
+    bottom: 0px;
+    left: 165px;
+    top: -86px;
+    background-image: url("../images/70-years-logo.jpg");
+    background-size: cover;
+}
+
+
+.logos {
+    width: 160px;
+    height: 160px;
+    position: relative;
+    padding-top: 54px;
+}
+
+.buttonname {
+    border: none;
+    color: #f37d30;
+
+    text-align: center;
+    position: relative;
+    top: 1px;
+    font-weight: bold;
+    text-decoration: none;
+    border: 1px solid #f37d30;
+    display: inline-block;
+    font-size: 16px;
+    width: 146px;
+    height: 48px;;
+
+}
+
+.newstopnav a {
+    float: left;
+    color: #807979;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.newstopnav {
+    overflow: hidden;
+    position: absolute;
+    right: 165px;
+    top: 100px;
+    padding-top: 63px;
+    margin: auto;
+}
+
+.new_del_col {
+    background-color: #f37d30;
+    border-bottom: 10px solid #ffc121;
+    font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    width: 100%;
+    height: 60px;
+}
+
+.font_resize a {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 12px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#text_resize_decrease {
+    font-size: 17px;
+    position: relative;
+    bottom: -2px;
+}
+
+#text_resize_reset {
+    font-size: 20px;
+    position: relative;
+    bottom: 2px;
+
+}
+
+#text_resize_increase {
+    font-size: 22px;
+    bottom: 5px;
+    left: -6px;
+    position: relative;
+}
+
+.languages {
+    position: relative;
+    bottom: 0;
+    font-size: 17px;
+    list-style-type: none
+}
+
+li.si {
+    position: relative;
+    top: -51px;
+}
+
+li.en {
+    position: relative;
+    left: 64px;
+}
+
+a.Counsellingcontact-link {
+    text-decoration: none;
+    color: white;
+    position: relative;
+    font-size: 15px;
+    font-weight: bold;
+    top: 12px;
+}
+
+a.Counsellingcontact-link {
+    position: relative;
+    left: 57px;
+}
+
+a.lifecentercontact-link {
+    text-decoration: none;
+    color: white;
+    position: relative;
+    font-size: 15px;
+    font-weight: bold;
+    top: 12px;
+}
+
+a.lifecentercontact-link {
+    position: relative;
+    left: 57px;
+}
+
+.title{
+    left: -67px;
+    position: relative;
+    top: -188px;
+}
+.title h3 {
+    font-family: FjallaOne-Regular;
+    font-weight: bold;
+    font-size: 28px;
+    color: #1c2674;
+
+}
+.news_image {
+    background-size: cover;
+    width: 1195px;
+    height: 400px;
+}
+
+.news_image img {
+    width: 1195px;
+    height: 400px;
+    position: relative;
+    top: -170px;
+}
+.body.row.d-flex.justify-content-start {
+    position: relative;
+    top: -161px;
+    font-family: 'Cormorant Garamond', serif;
+}
+.newsbody.row {
+    position: relative;
+    top: -142px;
+    font-family: 'Cormorant Garamond', serif;
+}

@@ -42,7 +42,7 @@ function template_preprocess_admin_block_content(&$variables) {
 /**
  * Prepares variables for administrative index page templates.
  *
- * Default template: admin-page--events.html.twig.
+ * Default template: admin-page.html.twig.
  *
  * @param $variables
  *   An associative array containing:
@@ -248,7 +248,7 @@ function template_preprocess_system_modules_uninstall(&$variables) {
 /**
  * Prepares variables for appearance page templates.
  *
- * Default template: system-themes-page--events.html.twig.
+ * Default template: system-themes-page.html.twig.
  *
  * @param $variables
  *   An associative array containing:

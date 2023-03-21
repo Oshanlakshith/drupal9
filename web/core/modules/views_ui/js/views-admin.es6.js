@@ -738,7 +738,7 @@
        */
       insertAddRemoveFilterGroupLinks() {
         // Insert a link for adding a new group at the top of the page, and make
-        // it match the action link styling used in a typical page--events.html.twig.
+        // it match the action link styling used in a typical page.html.twig.
         // Since Drupal does not provide a theme function for this markup this is
         // the best we can do.
         $(

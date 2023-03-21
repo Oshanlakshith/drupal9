@@ -1174,7 +1174,7 @@ function hook_page_bottom(array &$page_bottom) {
  *   - override preprocess functions: Set to TRUE when a theme does NOT want
  *     the standard preprocess functions to run. This can be used to give a
  *     theme FULL control over how variables are set. For example, if a theme
- *     wants total control over how certain variables in the page--events.html.twig are
+ *     wants total control over how certain variables in the page.html.twig are
  *     set, this can be set to true. Please keep in mind that when this is used
  *     by a theme, that theme becomes responsible for making sure necessary
  *     variables are set.

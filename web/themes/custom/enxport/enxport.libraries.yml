@@ -6,6 +6,7 @@ global-styling:
       css/bootstrap.min.css: {}
       css/frontpage.css: {}
       css/all.min.css: {}
+      css/news_navbar.css: {}
   js:
      js/script.js: {}
      js/bootstrap.bundle.js: {}

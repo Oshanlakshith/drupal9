@@ -1408,9 +1408,9 @@ function template_preprocess_html(&$variables) {
 /**
  * Prepares variables for the page template.
  *
- * Default template: page--events.html.twig.
+ * Default template: page.html.twig.
  *
- * See the page--events.html.twig template for the list of variables.
+ * See the page.html.twig template for the list of variables.
  */
 function template_preprocess_page(&$variables) {
   $language_interface = \Drupal::languageManager()->getCurrentLanguage();
@@ -1514,7 +1514,7 @@ function theme_get_suggestions($args, $base, $delimiter = '__') {
 /**
  * Prepares variables for maintenance page templates.
  *
- * Default template: maintenance-page--events.html.twig.
+ * Default template: maintenance-page.html.twig.
  *
  * @param array $variables
  *   An associative array containing:
@@ -1544,7 +1544,7 @@ function template_preprocess_maintenance_page(&$variables) {
 /**
  * Prepares variables for install page templates.
  *
- * Default template: install-page--events.html.twig.
+ * Default template: install-page.html.twig.
  *
  * @param array $variables
  *   An associative array containing:

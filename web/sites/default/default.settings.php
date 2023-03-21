@@ -287,7 +287,7 @@ $settings['hash_salt'] = '';
  * After finishing the upgrade, be sure to open this file again and change the
  * TRUE back to a FALSE!
  */
-$settings['update_free_access'] = TRUE;
+$settings['update_free_access'] = FALSE;
 
 /**
  * Fallback to HTTP for Update Manager and for fetching security advisories.
@@ -590,7 +590,7 @@ $settings['update_free_access'] = TRUE;
  * This applies when the site is explicitly set to maintenance mode through the
  * administration page or when the database is inactive due to an error.
  * The template file should also be copied into the theme. It is located inside
- * 'core/modules/system/templates/maintenance-page--events.html.twig'.
+ * 'core/modules/system/templates/maintenance-page.html.twig'.
  *
  * Note: This setting does not apply to installation and update pages.
  */

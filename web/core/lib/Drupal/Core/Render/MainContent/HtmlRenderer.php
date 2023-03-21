@@ -137,7 +137,7 @@ class HtmlRenderer implements MainContentRendererInterface {
 
     $page['#title'] = $title;
 
-    // Now render the rendered page--events.html.twig template inside the html.html.twig
+    // Now render the rendered page.html.twig template inside the html.html.twig
     // template, and use the bubbled #attached metadata from $page to ensure we
     // load all attached assets.
     $html = [
@@ -146,7 +146,7 @@ class HtmlRenderer implements MainContentRendererInterface {
     ];
 
     // The special page regions will appear directly in html.html.twig, not in
-    // page--events.html.twig, hence add them here, just before rendering html.html.twig.
+    // page.html.twig, hence add them here, just before rendering html.html.twig.
     $this->buildPageTopAndBottom($html);
 
     // Render, but don't replace placeholders yet, because that happens later in
