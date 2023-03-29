@@ -11,7 +11,9 @@ body{
     padding-left: 20px;
     padding-right: 20px;
 }
-
+.navbar-collapse .navbar-nav{
+    display: flex;
+}
 .newsnavbar {
     height: 100px;
     background-color: rgb(216, 130, 19);
@@ -99,11 +101,6 @@ ul a {
     font-size: 17px;
     position: relative;
     bottom: -2px;
-}
-.asksri {
-    display: flex;
-    align-items: center;
-    height: 60px;
 }
 
 #text_resize_reset {
@@ -216,11 +213,6 @@ a.lifecentercontact-link {
     bottom: 27px;
 }
 
-#search {
-    display: flex;
-}
-
-
 .form-control {
     width: 56%;
     padding: 0.375rem .75rem;
@@ -254,6 +246,13 @@ a.lifecentercontact-link {
 
 }
 
+.row.header_cont {
+    /* display: flex; */
+    display: flex;
+    height: 60px;
+    align-items: center;
+}
+
 .main-content__container.container {
     position: relative;
     bottom: 50px;
@@ -274,10 +273,9 @@ a.lifecentercontact-link {
         visibility: hidden;
     }
     .font_size_row{
-        flex-direction: ;
         visibility: visible;
         width: 170px;
-    }  
+    }
    .contactlist{
     display: flex;
     justify-content: space-between;
@@ -293,11 +291,11 @@ a.lifecentercontact-link {
         visibility: visible;
         width: 170px;
     }
-    
+
 }
 
 @media screen and (max-width: 768px) {
-   
+
     form {
         visibility: hidden;
     }
@@ -310,7 +308,6 @@ a.lifecentercontact-link {
         color: white;
         border: 2px solid rgb(236, 236, 236);
         height: 37px;
-        width: 40;
         width: 101px;
         right: 19px;
         top: 101px;
@@ -335,7 +332,7 @@ a.lifecentercontact-link {
     .Counsellingcontact {
         display: none;
     }
-    
+
     .lifecentercontact {
         display: none;
     }
