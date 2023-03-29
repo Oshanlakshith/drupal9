@@ -1,6 +1,18 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: none;
+}
+
+.navbar{
+    padding-left: 20px;
+    padding-right: 20px;
+}
 
 .newsnavbar {
-    width: 100%;
     height: 100px;
     background-color: rgb(216, 130, 19);
     padding-top: 63px;
@@ -9,8 +21,6 @@
 #newsimage {
     width: 90px;
     height: 90px;
-    position: relative;
-    left: 60px;
     vertical-align: middle;
     bottom: 0px;
     background-image: url("../images/logo.jpg");
@@ -20,39 +30,16 @@
 #anniversary_image {
     width: 121px;
     height: 90px;
-    position: relative;
-    left: 60px;
     vertical-align: middle;
     bottom: 0px;
-    left: 165px;
-    top: -86px;
+    top: 0;
     background-image: url("../images/70-years-logo.jpg");
     background-size: cover;
 }
 
-
-.logos {
-    width: 160px;
-    height: 160px;
-    position: relative;
-    padding-top: 54px;
-}
-
-.buttonname {
-    border: none;
-    color: #f37d30;
-
-    text-align: center;
-    position: relative;
-    top: 1px;
-    font-weight: bold;
-    text-decoration: none;
-    border: 1px solid #f37d30;
-    display: inline-block;
-    font-size: 16px;
-    width: 146px;
-    height: 48px;;
-
+.imagecontainer {
+    display: flex;
+    margin-left: 50px;
 }
 
 .newstopnav a {
@@ -65,37 +52,58 @@
     font-weight: bold;
 }
 
-.newstopnav {
-    overflow: hidden;
-    position: absolute;
-    right: 165px;
-    top: 100px;
-    padding-top: 63px;
-    margin: auto;
-}
-
-.new_del_col {
+.secoundnavbar {
+    font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    height: 60px;
     background-color: #f37d30;
     border-bottom: 10px solid #ffc121;
-    font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-    width: 100%;
-    height: 60px;
+}
+
+p {
+    font-size: 1rem;
+}
+
+
+.font_resize {
+    display: flex;
+    justify-content: space-evenly;
+    /* justify-items: center; */
+    align-items: baseline;
+}
+
+
+.contactlist {
+    display: flex;
+    justify-content: space-around;
+    display: -webkit-inline-flex;
+    align-items: center;
 }
 
 .font_resize a {
     float: left;
-    color: #ffffff;
-    text-align: center;
-    padding: 14px 12px;
-    text-decoration: none;
     font-size: 16px;
     font-weight: bold;
+
 }
+
+ul a {
+    color: white;
+}
+
+.font_resize .changer {
+    color: white;
+}
+
 
 #text_resize_decrease {
     font-size: 17px;
     position: relative;
     bottom: -2px;
+}
+.asksri {
+    display: flex;
+    align-items: center;
+    height: 60px;
 }
 
 #text_resize_reset {
@@ -113,81 +121,258 @@
 }
 
 .languages {
-    position: relative;
-    bottom: 0;
     font-size: 17px;
     list-style-type: none
 }
 
-li.si {
-    position: relative;
-    top: -51px;
-}
-
-li.en {
-    position: relative;
-    left: 64px;
-}
 
 a.Counsellingcontact-link {
     text-decoration: none;
     color: white;
-    position: relative;
     font-size: 15px;
     font-weight: bold;
-    top: 12px;
-}
 
-a.Counsellingcontact-link {
-    position: relative;
-    left: 57px;
 }
 
 a.lifecentercontact-link {
     text-decoration: none;
     color: white;
-    position: relative;
     font-size: 15px;
     font-weight: bold;
     top: 12px;
 }
 
-a.lifecentercontact-link {
-    position: relative;
-    left: 57px;
+.asksri-link {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    top: 12px;
 }
 
-.title{
-    left: -67px;
-    position: relative;
-    top: -188px;
-}
-.title h3 {
+
+#title h3 {
     font-family: FjallaOne-Regular;
     font-weight: bold;
     font-size: 28px;
     color: #1c2674;
 
 }
-.news_image {
-    background-size: cover;
-    width: 1195px;
-    height: 400px;
-}
 
-.news_image img {
-    width: 1195px;
-    height: 400px;
-    position: relative;
-    top: -170px;
-}
 .body.row.d-flex.justify-content-start {
     position: relative;
     top: -161px;
     font-family: 'Cormorant Garamond', serif;
 }
+
 .newsbody.row {
     position: relative;
     top: -142px;
     font-family: 'Cormorant Garamond', serif;
+}
+
+.lifecentercontact-linka :hover {
+    color: #f1172d;
+}
+
+
+.searchicon {
+    position: relative;
+    left: 72px;
+    top: -20px;
+    width: fit-content;
+    color: whitesmoke;
+}
+
+.searchinput {
+    transition: transform 0.4s, top 0.4s;
+    position: relative;
+    padding: -8px 25px 20px 106px;
+    width: fit-content;
+    top: -59px;
+    left: 129px;
+    transition: transform 0.4s, top 0.4s;
+}
+
+.open-search {
+    visibility: visible;
+}
+
+.btn {
+    border-radius: 10px;
+}
+
+.collapse .navbar-nav .nav-link {
+    color: #807979;
+}
+
+.navbar-collapse {
+    padding: 0px 60px;
+}
+
+#searchicon {
+    color: white;
+    position: relative;
+    bottom: 27px;
+}
+
+#search {
+    display: flex;
+}
+
+
+.form-control {
+    width: 56%;
+    padding: 0.375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 25.375rem;
+    display: none;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.myFunction {
+    visibility: visible;
+    transition: transform 0.4s, 0.4s;
+}
+
+.container-inline div, .container-inline label {
+    display: inline;
+}
+
+#togglebutton {
+    max-width: none;
+    background-color: #ffc121;
+
+}
+
+.main-content__container.container {
+    position: relative;
+    bottom: 50px;
+}
+.btn-Product{
+    visibility: hidden;
+}
+.page-wrapper {
+    max-width: none;
+    background: #fff;
+    background-image: none;
+}
+.carousel-inner{
+    display: none;
+}
+@media screen and (max-width: 1000px) {
+    .font_resize{
+        visibility: hidden;
+    }
+    .font_size_row{
+        flex-direction: ;
+        visibility: visible;
+        width: 170px;
+    }  
+   .contactlist{
+    display: flex;
+    justify-content: space-between;
+   }
+}
+
+@media screen and (max-width: 800px) {
+    .font_resize{
+        visibility: hidden;
+        justify-content:space-evenly;
+    }
+    .font_size_row{
+        visibility: visible;
+        width: 170px;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+   
+    form {
+        visibility: hidden;
+    }
+    .btn-Product {
+        display: flex;
+        justify-content: center;
+        visibility: visible;
+        position: absolute;
+        font-weight: bold;
+        color: white;
+        border: 2px solid rgb(236, 236, 236);
+        height: 37px;
+        width: 40;
+        width: 101px;
+        right: 19px;
+        top: 101px;
+    }
+    .carousel-inner {
+        display: block;
+        display: flex;
+        width: min-content;
+        width: 40%;
+        align-items: center;
+        height: 60px;
+        overflow: hidden;
+    }
+    #searchicon {
+        display: none;
+    }
+
+    .font_resize {
+        display: none;
+    }
+
+    .Counsellingcontact {
+        display: none;
+    }
+    
+    .lifecentercontact {
+        display: none;
+    }
+
+    #asksri-link {
+        display: none;
+    }
+
+    .languages a {
+        color: black;
+        font-weight: bold;
+    }
+
+    .news_image {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    #newsimage {
+        width: 60px;
+        height: 60px;
+
+    }
+
+    #anniversary_image {
+        width: 100px;
+        height: 75px;
+
+    }
+    .carousel-inner {
+        visibility: visible;
+        display: flex;
+        width: min-content;
+        width: 40%;
+        align-items: center;
+        height: 60px;
+        overflow: hidden;
+    }
 }

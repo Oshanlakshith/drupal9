@@ -85,6 +85,7 @@
   <header class="{{ layout }}">
     {{ title_prefix }}
       {% if label and not page %}
+        {{ node.title.value }}
       <h2{{ title_attributes.addClass('node__title') }}>
         <a href="{{ url }}" rel="bookmark">{{ label }}</a>
       </h2>

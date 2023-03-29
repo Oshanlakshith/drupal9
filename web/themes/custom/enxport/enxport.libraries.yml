@@ -2,11 +2,11 @@ global-styling:
   version: 1.x
   css:
     theme:
-      css/style.css: {}
       css/bootstrap.min.css: {}
+      css/style.css: {}
       css/frontpage.css: {}
       css/all.min.css: {}
       css/news_navbar.css: {}
   js:
-     js/script.js: {}
      js/bootstrap.bundle.js: {}
+     js/script.js: {}

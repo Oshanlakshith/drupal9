@@ -66,15 +66,21 @@
  * @see template_preprocess_node()
  */
 #}
+<div class="container">
+    <div class="row">
+        <div id="title" class="col-lg-12">
+            <h3>{{ node.title.value }}</h3>
+        </div>
+        <div class="row">
+            <div class="news_image col-lg-12">
+                <img src="{{ file_url(node.field_image[0].entity.fileuri) }}" alt="">
+            </div>
+        </div>
 
-<div class="row justify-content-center">
-    <div class="col-lg-10 col-md-12 d-flex justify-content-start">
-        <dev class="title width-100px d-flex justify-content-start"><h3>{{ node.title.value }}</h3>
-        </dev>
+        <div class="newsbody col-lg-12">
+            <div>
+                <p>{{ node.body.value|raw }}</p>
+            </div>
+        </div>
     </div>
-    <dev class="news_image row">
-        <img class="w-100" src="{{ file_url(node.field_image[0].entity.fileuri) }}" alt="">
-    </dev>
-    <div class="newsbody row"><p>{{ node.body.value|raw }}</p></div>
 </div>
-

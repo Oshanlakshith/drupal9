@@ -46,31 +46,95 @@
  */
 #}
 
-<div id="page-wrapper" class="page-wrapper">
-  <div id="page">
- <nav class="navbar navbar-expand-lg">
-      <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse d-flex" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled">Disabled</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+    <div id="page-wrapper" class="page-wrapper">
+        <div id="page">
+            <div id="page-wrapper" class="page-wrapper">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="row imagecontainer">
+                        <div class="col-lg-4 justify-content-start" id="newsimage"></div>
+                        <div class="col-lg-4 justify-content-start" id="anniversary_image"></div>
+                    </div>
 
-  </div>
-</div>
+                    <button id="togglebutton" onclick="hidebutton()" class="navbar-toggler" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse fw-bold" id="navbarNavAltMarkup">
+                        <div class="navbar-nav ms-auto">
+                            <a class="nav-item nav-link" href="#">About Us<span class="sr-only"></span></a>
+                            <a class="nav-item nav-link " href="#whatwedo">What We Do</a>
+                            <a class="nav-item nav-link " href="#contact">Contact Us</a>
+                            <a class="nav-item nav-link " href="#resource">Resources</a>
+                            <a class="nav-item nav-link " href="#youth">Youth</a>
+                            <a class="nav-item nav-link " href="#news">News</a>
+                            <a class="nav-item nav-link " href="#faq">FAQ</a>
+                            <a class="nav-item nav-link  " href="#blog">Blogs</a>
+                            <button type="button" id="btnbutton" class="btn btn-outline-danger rounded-0 fw-bold">Our
+                                Products
+                            </button>
+                        </div>
+                    </div>
+                </nav>
+
+                <nav class="secoundnavbar navbar-expand-lg navbar-light bg-light border-bottom">
+                    <div class="secoundcollapse navbar-collapse fw-bold" id="navbarNavAltMarku">
+                        <div class="new_del_col">
+                            <div class="row">
+                                <div class="col-3">
+                                    <div class="font_size_row alo_fon_s">
+                                        <div class="font_resize d-flex justify-content-center">
+                                            <a href="javascript:;" class="changer" id="text_resize_decrease"><sup></sup>A</a>
+                                            <a href="javascript:;" class="changer" id="text_resize_reset">A</a>
+                                            <a href="javascript:;" class="changer" id="text_resize_increase"><sup></sup>A</a>
+                                            <div class="row">
+                                                <ul class="languages justify-content-start list-inline">
+                                                    <li class="en">
+                                                        <a href="" class="justify-content-start languages-link">English
+                                                            |</a>
+                                                    </li>
+                                                    <li class="si">
+                                                        <a href="" class="justify-content-start languages-link">සිංහල
+                                                            |</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="Counsellingcontact col-3">
+                                    <div class="row justify-content-center">
+                                        <a href="" class="Counsellingcontact-link ">Alokaya Counselling Centre |
+                                            0779895252</a>
+                                    </div>
+                                </div>
+                                <div class="lifecentercontact col-3">
+                                    <div class="row justify-content-center">
+                                        <a href="" class="lifecentercontact-link ">Happy Life Centre | 0765884881</a>
+                                    </div>
+                                </div>
+                                <div class="ask_sri col-3">
+                                    <div class="row justify-content-center">
+                                        <a href="" class="asksri-link ">Ask SriBETA | Chat Now</a>
+                                        <button class="productbutton">product</button>
+                                        <div id="productbutton" class="col-sm-2 d-flex justify-content-end">
+
+                                        </div>
+                                        <i id="searchicon" type="submit" class="fa-solid fa-magnifying-glass"></i>
+                                        <form class="searchinput d-flex" role="search">
+                                            <input class="form-control" type="search" placeholder="Search"
+                                                   aria-label="Search">
+                                        </form>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </nav>
+            </div>
+
+        </div>
+    </div>
