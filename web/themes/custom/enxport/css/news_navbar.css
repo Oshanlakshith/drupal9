@@ -3,17 +3,20 @@
     margin: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     background-image: none;
 }
 
-.navbar{
+.navbar {
     padding-left: 20px;
     padding-right: 20px;
 }
-.navbar-collapse .navbar-nav{
+
+.navbar-collapse .navbar-nav {
     display: flex;
 }
+
 .newsnavbar {
     height: 100px;
     background-color: rgb(216, 130, 19);
@@ -172,25 +175,6 @@ a.lifecentercontact-link {
     color: #f1172d;
 }
 
-
-.searchicon {
-    position: relative;
-    left: 72px;
-    top: -20px;
-    width: fit-content;
-    color: whitesmoke;
-}
-
-.searchinput {
-    transition: transform 0.4s, top 0.4s;
-    position: relative;
-    padding: -8px 25px 20px 106px;
-    width: fit-content;
-    top: -59px;
-    left: 129px;
-    transition: transform 0.4s, top 0.4s;
-}
-
 .open-search {
     visibility: visible;
 }
@@ -207,29 +191,6 @@ a.lifecentercontact-link {
     padding: 0px 60px;
 }
 
-#searchicon {
-    color: white;
-    position: relative;
-    bottom: 27px;
-}
-
-.form-control {
-    width: 56%;
-    padding: 0.375rem .75rem;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #212529;
-    background-color: #fff;
-    background-clip: padding-box;
-    border: 1px solid #ced4da;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    border-radius: 25.375rem;
-    display: none;
-    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
-}
 
 .myFunction {
     visibility: visible;
@@ -257,37 +218,44 @@ a.lifecentercontact-link {
     position: relative;
     bottom: 50px;
 }
-.btn-Product{
+
+.btn-Product {
     visibility: hidden;
 }
+
 .page-wrapper {
     max-width: none;
     background: #fff;
     background-image: none;
 }
-.carousel-inner{
+
+.carousel-inner {
     display: none;
 }
+
 @media screen and (max-width: 1000px) {
-    .font_resize{
+    .font_resize {
         visibility: hidden;
     }
-    .font_size_row{
+
+    .font_size_row {
         visibility: visible;
         width: 170px;
     }
-   .contactlist{
-    display: flex;
-    justify-content: space-between;
-   }
+
+    .contactlist {
+        display: flex;
+        justify-content: space-between;
+    }
 }
 
 @media screen and (max-width: 800px) {
-    .font_resize{
+    .font_resize {
         visibility: hidden;
-        justify-content:space-evenly;
+        justify-content: space-evenly;
     }
-    .font_size_row{
+
+    .font_size_row {
         visibility: visible;
         width: 170px;
     }
@@ -299,6 +267,7 @@ a.lifecentercontact-link {
     form {
         visibility: hidden;
     }
+
     .btn-Product {
         display: flex;
         justify-content: center;
@@ -312,6 +281,7 @@ a.lifecentercontact-link {
         right: 19px;
         top: 101px;
     }
+
     .carousel-inner {
         display: block;
         display: flex;
@@ -320,9 +290,6 @@ a.lifecentercontact-link {
         align-items: center;
         height: 60px;
         overflow: hidden;
-    }
-    #searchicon {
-        display: none;
     }
 
     .font_resize {
@@ -363,6 +330,7 @@ a.lifecentercontact-link {
         height: 75px;
 
     }
+
     .carousel-inner {
         visibility: visible;
         display: flex;
@@ -372,4 +340,50 @@ a.lifecentercontact-link {
         height: 60px;
         overflow: hidden;
     }
+
+    .footerContact {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .sub_row_before_btn {
+        display: flex;
+        justify-content: flex-end;
+        padding: 29px;
+        height: 83px;
+        background-color: #f37d30;
+        align-items: center;
+    }
 }
+
+@media screen and (max-width: 560px) {
+    .logo_col {
+        position: relative;
+        top: 64px;
+        height: 0;
+    }
+
+    .social {
+        position: relative;
+        top: 64px;
+        height: 0;
+    }
+
+    .footerForyou {
+        position: relative;
+        top: 64px;
+        height: 0;
+    }
+
+    .footerlinks {
+        position: relative;
+        top: 64px;
+        height: 0;
+    }
+
+    .footerContact {
+        position: relative;
+        top: 64px;
+    }
+}
+

@@ -67,20 +67,21 @@
  */
 #}
 
-	<div class="container">
-		<div class="row">
-			<div class="col-12 text-center">
-				<h1>{{ node.title.value }}</h1>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-6 offset-md-3 text-center">
-				    <img class="w-100" src="{{ file_url(node.field_image[0].entity.fileuri) }}" alt="">
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-12">
-				<p>{{ node.body.value|raw }}</p>
-			</div>
-		</div>
+<div style="position: relative;top: 48px;padding-top: 40px;" class="container">
+    <div class="row">
+        <div class="col-12 text-center">
+            <h1>{{ node.title.value }}</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6 offset-md-3 text-center">
+            <img class="w-100" src="{{ file_url(node.field_image[0].entity.fileuri) }}" alt="">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <p>{{ node.body.value|raw }}</p>
+        </div>
+    </div>
 
+</div>

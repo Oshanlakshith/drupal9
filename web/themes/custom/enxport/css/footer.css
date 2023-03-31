@@ -1,0 +1,136 @@
+.footer_section {
+    height: 599.39px;
+
+}
+
+.footer_datail {
+    background-image: url(../images/footer_backo.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.subscribe_section {
+    background-color: #f37d30;
+    height: 83px;
+}
+
+.sub_row_before {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 83px;
+}
+
+.subscribe_section h5 {
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.inputfeild {
+    height: 50px;
+}
+
+.logo_col > img {
+    height: 89px;
+    width: 79.5px;
+    background-size: cover;
+}
+
+.align_row {
+    display: flex;
+    justify-content: center;
+}
+
+.logo_col p {
+    color: white;
+    font-size: 12px;
+    font-style: HelveticaNeue;
+}
+
+.footerlinks p {
+    color: white;
+    display: inline-list-item;
+    font-size: 12px;
+}
+
+.footerForyou h6 {
+    font-weight: bold;
+    color: white;
+
+}
+
+.padding_left_right {
+    display: flex;
+    color: whitesmoke;
+
+}
+
+.padding_left_right h6 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: FjallaOne-Regular;
+    color: white;
+    margin: revert;
+    text-decoration: underline;
+}
+
+.padding_left_right p {
+    font-size: 12px;
+}
+
+.footerForyou {
+    justify-content: end;
+}
+
+.align_row {
+    height: 516.58px;
+    align-items: center;
+}
+
+.social {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btn_submit {
+    width: 25px;
+    height: 25px;
+    border: 2px solid red;
+}
+
+.sub_row_before_btn input {
+    width: 150px;
+    height: 0;
+}
+
+.sub_row_before_btn {
+    display: flex;
+    height: 83px;
+    align-items: center;
+
+}
+
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-y));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+
+.btn_submit {
+    position: relative;
+    left: 8px;
+    width: 102px;
+    height: 35px;
+    background-color: yellow;
+    border-radius: 7px;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+

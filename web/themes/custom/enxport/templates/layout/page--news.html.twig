@@ -45,11 +45,183 @@
  * @see html.html.twig
  */
 #}
-{% include '@enxport/layout/header.html.twig' %}
 <div id="page-wrapper" class="page-wrapper">
     <div id="page">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="imagecontainer row">
+                <div class="col-lg-4 justify-content-start" id="newsimage"></div>
+                <div class="col-lg-4 justify-content-start" id="anniversary_image"></div>
+            </div>
 
-      {{ page.content }}
-     </div>
+            <button id="togglebutton" onclick="hidebutton()" class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse fw-bold" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-item nav-link" href="#">About Us<span class="sr-only"></span></a>
+                    <a class="nav-item nav-link " href="#whatwedo">What We Do</a>
+                    <a class="nav-item nav-link " href="#contact">Contact Us</a>
+                    <a class="nav-item nav-link " href="#resource">Resources</a>
+                    <a class="nav-item nav-link " href="#youth">Youth</a>
+                    <a class="nav-item nav-link " href="#news">News</a>
+                    <a class="nav-item nav-link " href="#faq">FAQ</a>
+                    <a class="nav-item nav-link  " href="#blog">Blogs</a>
+                    <button type="button" id="btnbutton" class="btn btn-outline-danger rounded-0 fw-bold">Our
+                        Products
+                    </button>
+                </div>
+            </div>
+        </nav>
+
+        <nav class="secoundnavbar navbar-expand-lg border-bottom">
+            <div class="container">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <a href="" class="Counsellingcontact-link ">Alokaya Counselling Centre |
+                                0779895252</a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="" class="lifecentercontact-link ">Happy Life Centre | 0765884881</a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="" class="asksri-link ">Ask SriBETA | Chat Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row header_cont col-lg-12">
+                    <div class="font_size_row col-lg-2">
+                        <div class="font_resize font_size_row alo_fon_s">
+                            <a href="javascript:" class="changer" id="text_resize_decrease"><sup></sup>A</a>
+                            <a href="javascript:" class="changer" id="text_resize_reset">A</a>
+                            <a href="javascript:" class="changer" id="text_resize_increase"><sup></sup>A</a>
+                            <div id="text_resize_clear"></div>
+                        </div>
+                    </div>
+                    <div class="contactlist col-lg-9">
+                        <div class="Counsellingcontact col-lg-3">
+                            <a href="" class="Counsellingcontact-link ">Alokaya Counselling Centre |
+                                0779895252</a>
+                        </div>
+                        <div class="lifecentercontact col-lg-3">
+                            <a href="" class="lifecentercontact-link ">Happy Life Centre | 0765884881</a>
+                        </div>
+                        <div class="asksri col-lg-3">
+                            <a href="" class="asksri-link ">Ask SriBETA | Chat Now</a>
+                        </div>
+                        <div class="btn-Product">
+                            <p>Products</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </nav>
+        {{ page.content }}
+
+        <section class="footer_section">
+            <div class="subscribe_section">
+                <div class="col-sm-12 col-lg-12">
+                    <div class="row">
+                        <div class="col-sm-12 col-lg-6 sub_row_before">
+                            <h5>Subscribe to get all the latest news from us</h5>
+                        </div>
+                        <div class="col-sm-12 col-lg-6 sub_row_before_btn">
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                   aria-describedby="emailHelp" placeholder="Enter email">
+                            <button class="btn_submit">SUBMIT</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_datail">
+                <div class="col-sm-12 col-lg-12 ">
+                    <div class="row align_row">
+                        <div class="col-lg-10 padding_left_right">
+                            <div class="col-3 logo_col">
+                                <img src="https://www.fpasrilanka.org/sites/all/themes/fpa/img/logo_w.png"
+                                     alt="adspace">
+                                <p>At FPA Sri Lanka we believe that reproductive health is a fundamental human right
+                                    of every woman and man throughout her/his life cycle...</p>
+                                <div class="read_more">
+                                    <a href="">Read More</a>
+                                </div>
+                                <di class="social">
+                                    <i class="fa fa-instagram"></i>
+                                    <i class="fa fa-twitter"></i>
+                                    <i class="fa fa-youtube-play"></i>
+                                    <i class="fa fa-instagram"></i>
+                                </di>
+                            </div>
+                            <div class="col-3 footerForyou">
+                                <h6>FOR YOU</h6>
+                                <p>- Find a Clinic</p>
+                                <p>- Counselling</p>
+                                <p>- Centre for Family Health</p>
+                                <p>- Health Information</p>
+                                <p>- Training</p>
+                            </div>
+                            <div class="col-3 footerlinks">
+                                <h6>Links</h6>
+                                <p>-About Us</p>
+                                <p>What We Do</p>
+                                <p>-Products</p>
+                                <p>-REsources</p>
+                                <p>-News</p>
+                                <p>-Video Gallery</p>
+                            </div>
+                            <div class="col-3 footerContact">
+                                <h6>Contact Us</h6>
+                                <p>
+                                    <span>
+                                        <i class="fas fa-location-dot"></i>
+                                    </span>
+                                    <span>
+                                        	37/27 Bullers Lane, Colombo 7, Sri Lanka.
+                                    </span>
+                                </p>
+                                <p>
+                                    <span>
+                                           <i class="fas fa-phone"></i>
+                                    </span>
+                                    <span>
+                                        	+9411 255 5455
+                                    </span>
+                                </p>
+                                <p>
+                                    <span>
+                                         <i class="fa fa-fax"></i>
+                                    </span>
+                                    <span>
+                                        +9411 258 0915 / 255 6611
+                                    </span>
+                                </p>
+                                <p>
+                                    <span>
+                                        <i class="fas fa-envelope"></i>
+                                    </span>
+                                    <span>
+                                        	37/27 Bullers Lane, Colombo 7, Sri Lanka.
+                                    </span>
+                                </p>
+                                <p>
+                                    <span>
+                                        <i class="fas fa-solid fa-clock-nine"></i>
+                                    </span>
+                                    <span>
+                                        	Mon – Fri8.30 am to 4.30 pmClosed on public and bank holidays
+                                    </span>
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
 </div>
 
